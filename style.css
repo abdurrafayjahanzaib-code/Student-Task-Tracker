@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.app-card {
+  background: #ffffff;
+}
+
+.summary-box {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #e9ecef;
+}
+
+.summary-box h5 {
+  margin-bottom: 10px;
+  color: #495057;
+}
+
+.summary-box p {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  color: #0d6efd;
+}
+
+.task-card {
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-4px);
+}
+
+.priority-high {
+  border-left: 6px solid #dc3545;
+}
+
+.priority-medium {
+  border-left: 6px solid #ffc107;
+}
+
+.priority-low {
+  border-left: 6px solid #198754;
+}
+
+.completed-task {
+  opacity: 0.75;
+  text-decoration: line-through;
+}
+
+.badge-custom {
+  font-size: 12px;
+  padding: 8px 10px;
+  border-radius: 30px;
+}
+
+.empty-message {
+  text-align: center;
+  color: #6c757d;
+  font-size: 18px;
+  padding: 30px 0;
+}
